@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "tag": "bm-checkbox",
+      "dependencies": [],
+      "componentClass": "BmCheckbox",
+      "componentPath": "components/bm-checkbox/bm-checkbox.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/bm-checkbox/bm-checkbox.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "checkboxid",
+          "type": "String",
+          "attr": "checkboxid"
+        },
+        {
+          "name": "initialchecked",
+          "type": "Boolean",
+          "attr": "initialchecked"
+        },
+        {
+          "name": "initialvalue",
+          "type": "String",
+          "attr": "initialvalue"
+        },
+        {
+          "name": "labeltext",
+          "type": "String",
+          "attr": "labeltext"
+        }
+      ],
+      "states": [
+        {
+          "name": "value"
+        }
+      ],
+      "listeners": [
+        {
+          "event": "change",
+          "method": "handleChange",
+          "passive": false,
+          "capture": false
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.7.18",
+    "typescriptVersion": "2.8.1"
+  },
+  "bundles": []
+}
