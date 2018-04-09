@@ -1,37 +1,18 @@
-[![GitHub release](https://img.shields.io/github/release/fbrctr/fabricator.svg)]()
-[![Build Status](https://travis-ci.org/fbrctr/fabricator.svg)](https://travis-ci.org/fbrctr/fabricator) [![devDependency Status](https://david-dm.org/fbrctr/fabricator/dev-status.svg)](https://david-dm.org/fbrctr/fabricator#info=devDependencies) [![Join the chat at https://gitter.im/fbrctr/fabricator](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fbrctr/fabricator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Bitmarck Webcomponents Proof of Concept
 
-<p align="center">
-  <img src="http://fbrctr.github.io/assets/toolkit/images/logo.svg" width="500">
-</p>
+Das Repository versucht, Fabricator als Asset-Building- und Preview-Umgebung mit StencilJS zusammenzubringen, welches ein Typescript-JSX-basierter Compiler für native Webcomponents ist.
 
-# Fabricator
+## Steps to install
+1. `git clone git@github.com:franktopel/bm-wc-poc.git bm-wc-poc`
+2. `cd bm-wc-poc`
+3. `npm i` //  am besten mit Node 6.x
+4. Neues Terminalfenster in `bw-wc-poc` öffnen
+5. `cd stencil`
+6. `npm i` // am besten mit Node 6.x oder höher
 
-> _fabricate_ - to make by assembling parts or sections.
-
-Fabricator is a tool for building website UI toolkits - _think ["Tiny Bootstraps, for Every Client"](http://daverupert.com/2013/04/responsive-deliverables/#tiny-bootstraps-for-every-client)_
-
-## Quick Start
-
-```shell
-$ curl -L https://github.com/fbrctr/fabricator/archive/master.tar.gz | tar zx --strip 1
-$ npm start
-```
-
-## Documentation
-
-#### [Read the docs →](http://fbrctr.github.io/docs)
-
-## Demo
-
-#### [Default Fabricator Instance →](http://fbrctr.github.io/demo)
-
-## Credits
-
-Created by [Luke Askew](http://twitter.com/lukeaskew).
-
-Logo by [Abby Putinski](https://abbyputinski.com/)
-
-## License
-
-[The MIT License (MIT)](http://opensource.org/licenses/mit-license.php)
+## Steps to run
+1. Im Terminal ins Verzeichnis `bm-wc-poc` wechseln
+2. `npm start` startet Fabricator unter `http://localhost:3000`
+3. Zweites Terminalfenster öffnen und `cd stencil` eingeben
+4. `npm run dev` startet den Development Server für StencilJS unter `http://localhost:3333` im ES6-Modus (benötigt Chrome, Safari, Opera oder einen anderen Webkit-basierten Browser)
+5. Alternativ kann der Dev-Server ES5 bauen: `npm run dev --es5`
