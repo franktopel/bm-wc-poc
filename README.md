@@ -3,7 +3,9 @@
 Das Repository versucht, Fabricator als Asset-Building- und Preview-Umgebung mit StencilJS zusammenzubringen, welches ein Typescript-JSX-basierter Compiler für native Webcomponents ist.
 
 ## Steps to install
-1. `git clone git@github.com:franktopel/bm-wc-poc.git bm-wc-poc`
+
+0. Terminal öffnen und in den Workspace-Folder wechseln
+1. `git clone git@github.com:franktopel/bm-wc-poc.git bm-wc-poc` // legt Verzeichnis `/bm-wc-poc` im aktuellen Verzeichnis an
 2. `cd bm-wc-poc`
 3. `npm i` //  am besten mit Node 6.x
 4. Neues Terminalfenster in `bw-wc-poc` öffnen
