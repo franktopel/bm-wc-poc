@@ -1,4 +1,4 @@
-# Bitmarck Webcomponents Proof of Concept
+# BM Webcomponents Proof of Concept
 
 Das Repository versucht, Fabricator als Asset-Building- und Preview-Umgebung mit StencilJS zusammenzubringen, welches ein Typescript-JSX-basierter Compiler für native Webcomponents ist.
 
