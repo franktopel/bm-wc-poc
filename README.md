@@ -10,7 +10,7 @@ Das Repository versucht, Fabricator als Asset-Building- und Preview-Umgebung mit
 3. `npm i` //  am besten mit Node 6.x
 4. Neues Terminalfenster in `bw-wc-poc` öffnen
 5. `cd stencil`
-6. `npm i` // am besten mit Node 6.x oder höher
+6. `npm i` // mindestens mit Node 6.11.1 oder höher
 
 ## Steps to run
 1. Im Terminal ins Verzeichnis `bm-wc-poc` wechseln
